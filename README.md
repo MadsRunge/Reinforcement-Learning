@@ -142,6 +142,20 @@ For at udvide projektet kan du:
 
 ## Fejlfinding
 
+### Fejl: `pyenv: no such command 'virtualenv'`
+Dette betyder at `pyenv-virtualenv` pluginet enten mangler eller ikke er initialiseret i din shell.
+
+1. **Installér pluginet:**
+   ```bash
+   brew install pyenv-virtualenv
+   ```
+
+2. **Initialisér det (vigtigt):**
+   Kør denne kommando i din terminal (og tilføj den til din `.zshrc` for at gøre det permanent):
+   ```bash
+   eval "$(pyenv virtualenv-init -)"
+   ```
+
 ### Miljøet aktiveres ikke automatisk
 Sørg for at pyenv er korrekt konfigureret i din shell. Kør:
 ```bash

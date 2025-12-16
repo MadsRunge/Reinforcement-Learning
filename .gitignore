@@ -1,0 +1,32 @@
+# Python environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MacOS system files
+.DS_Store
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Local configuration
+setup.sh
+
+# Saved Models / "Brains"
+models/
+*.npy
+*.pkl
+*.h5
+*.pt
+*.pth
